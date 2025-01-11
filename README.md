@@ -12,7 +12,7 @@ If the application does not start, then run the following commands in the applic
 
 
 ```bash
-docker build -t test-task-management .
+docker pull -t test-task-management .
 docker run -p 8080:8080 test-task-management
 ```
 

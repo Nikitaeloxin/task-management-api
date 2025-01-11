@@ -50,7 +50,7 @@ URL: "/api/v1/tasks/:id"
 
 Method: PUT
 
-Query Parameters: The new status for the task (either "IN_PROGRES" or "COMPLETED")
+Query Parameters: "status" - The new status for the task (either "IN_PROGRES" or "COMPLETED")
 
 Response:
 
@@ -77,7 +77,7 @@ URL: "/api/v1/tasks"
 
 Method: GET
 
-Query Parameters: (optional) Filter tasks by status (either "IN_PROGRES" or "COMPLETED")
+Query Parameters: "status" - (optional) Filter tasks by status (either "IN_PROGRES" or "COMPLETED")
 
 Response:
 

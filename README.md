@@ -4,7 +4,7 @@
 To run the application, use the following command:
 
 ```bash
-docker run -p 8080:8080 test-task-management
+docker run -p 8080:8080 nikitaelokhin1995/test-task-management
 ```
 The application will now be available at: http://localhost:8080
 
